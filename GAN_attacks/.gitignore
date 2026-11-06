@@ -1,0 +1,21 @@
+**/__pycache__/
+
+*.txt
+*.png
+*.zip
+
+# Include zipped results files
+**/attack_res/**
+!**/attack_res/
+!**/attack_res/**/
+!**/attack_res/**/*.zip
+
+**/target_model/*
+**/improvedGAN/**
+GMI/GAN_models/**
+helper-files/
+
+# Archived scripts and run logs: kept locally, never committed
+scripts/old_scripts/
+scripts/logs/
+/logs/

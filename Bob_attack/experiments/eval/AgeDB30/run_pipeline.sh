@@ -1,0 +1,1 @@
+../../../bin/python pipeline.py --FR_system ArcFace

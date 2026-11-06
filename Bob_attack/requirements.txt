@@ -1,0 +1,4 @@
+setuptools
+numpy
+bob.extension
+python-dotenv==1.2.2

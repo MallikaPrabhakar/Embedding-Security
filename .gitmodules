@@ -1,0 +1,6 @@
+[submodule "facenet_pytorch/dependencies/facenet"]
+	path = facenet_pytorch/dependencies/facenet
+	url = https://github.com/davidsandberg/facenet.git
+[submodule "leech-decoding"]
+	path = leech-decoding
+	url = https://github.com/avanpo/leech-decoding

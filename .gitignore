@@ -1,0 +1,41 @@
+datasets/pp/*
+# keep the csv split/mapping files under celeba tracked (but not the image/embedding dirs)
+!datasets/pp/celeba/
+datasets/pp/celeba/*
+!datasets/pp/celeba/*.csv
+datasets/raw/*
+
+PIPE_attack/datasets/*
+PIPE_attack/models/*
+PIPE_attack/results/*
+PIPE_attack/datagen/outputs
+
+*.zip
+*.tar
+__pycache__/*
+*/__pycache__/*
+*/*/__pycache__/*
+
+!*/*/*.ipynb
+
+metrics/fid/*
+leech-decoding/**
+logs/*.pkl
+/logs/
+demo/*
+**/helper-files/*
+
+# archived (deprecated/non-artifact) files moved out of the published tree
+archive/
+
+# Claude session/memory dir
+.claude/
+
+# dev-only tooling / editor / scratch (not part of the published artifact)
+ruff.toml
+.vscode/
+uploads/
+
+# GAN reconstruction images (large; produced by GAN_attacks/scripts/run_all.sh, read by metrics/)
+GAN_attacks/GMI/attack_res/
+GAN_attacks/DMI/attack_res/
